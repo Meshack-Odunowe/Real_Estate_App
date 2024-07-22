@@ -6,14 +6,14 @@ interface SearchFiltersProps {
     minPrice: string;
     maxPrice: string;
     propertyType: string;
-    propertyName: string; // New criteria for searching by name
+    propertyName: string; 
   };
   setSearchCriteria: React.Dispatch<React.SetStateAction<{
     searchTerm: string;
     minPrice: string;
     maxPrice: string;
     propertyType: string;
-    propertyName: string; // New criteria for searching by name
+    propertyName: string; 
   }>>;
 }
 

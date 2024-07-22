@@ -27,10 +27,10 @@ const MobileNavbar: React.FC = () => {
             <Link href={"/listings"}>
               <SheetDescription>Listings </SheetDescription>
             </Link>
-            <Link href={"/about"}>
+            <Link href={"#"}>
               <SheetDescription>About </SheetDescription>
             </Link>
-            <Link href={"/home"}>
+            <Link href={"#"}>
               <SheetDescription>Contact </SheetDescription>
             </Link>
           </SheetHeader>
